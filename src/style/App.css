@@ -1,11 +1,42 @@
 @import "tailwindcss";
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+body {
+    font-family: 'Roboto';
+}
 .bg-primary {
     background-color: #ffc045;
 }
+    .bg-primary:hover {
+        background-color: #f5b029;
+    }
 .bg-secondary {
     background-color: #3d2514;
 }
+    .bg-secondary:hover {
+        background-color: #231105;
+    }
 .bg-red-primary {
     background-color: #bf2222;
+}
+    .bg-red-primary:hover {
+        background-color: #990e0e;
+    }
+.font-secondary {
+    font-family: 'Alfa Slab One';
+}
+.text-secondary {
+    color: #3d2514;
+}
+.text-red-primary {
+    color: #bf2222;
+}
+.animate {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition:    all .2s ease-in-out;
+    -o-transition:      all .2s ease-in-out;
+    -ms-transition:     all .2s ease-in-out;
+    transition:         all .2s ease-in-out;
+}
+.shadowTitleSecondary {
+    text-shadow: 3px  3px #fee7ba;
 }
